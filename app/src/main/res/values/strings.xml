@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DesignPatternSamplesAppDemo</string>
+    <string name="theme_preference_key">ThemePreferenceKey</string>
+    <string name="theme_preference_default_value">BrightBlueGreenTheme</string>
+    <string name="theme_preference_title">當前主題</string>
+    <string name="activity_main_text">Poseidon Undersea Resort in Fiji \n\n 全球第一家海底渡假村就是它！斐濟神秘小島 Poseidon Mystery Island 環礁附近的海底渡假村。位於海底的套房，提供給房客最真實的斐濟海底美景。想要更深入了解海底世界的房客，渡假村也提供私人潛艇帶你翱翔於海底之間。</string>
+    <string name="menu_main_title">Settings</string>
+</resources>

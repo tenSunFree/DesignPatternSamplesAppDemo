@@ -1,0 +1,31 @@
+<resources>
+    <!-- 洋紅色配黃色主題 -->
+    <style name="MagentaYellowTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#DAA2DA</item>
+        <item name="colorPrimaryDark">#DE8CF0</item>
+        <item name="colorAccent">#DE8CF0</item>
+        <!-- 設定StatusBar的文字顏色 -->
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- 設定ActionBar -->
+        <item name="actionBarStyle">@style/MagentaYellowActionBarStyle</item>
+        <item name="menu_main_icon_tint">#BED905</item>
+        <item name="view_root_background">#93A806</item>
+        <item name="default_text_color">#DBB4DA</item>
+        <item name="alertDialogTheme">@style/MagentaYellowAlertDialogStyle</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MagentaYellowActionBarStyle" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/MagentaYellowActionBarTitleStyle</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="MagentaYellowActionBarTitleStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#93A806</item>
+    </style>
+
+    <style name="MagentaYellowAlertDialogStyle" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColor">#BED905</item>
+        <item name="android:background">#DE8CF0</item>
+    </style>
+</resources>

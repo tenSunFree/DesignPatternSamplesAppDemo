@@ -1,0 +1,31 @@
+<resources>
+    <!-- 都市天際線主題 -->
+    <style name="UrbanSkylineTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#A3765D</item>
+        <item name="colorPrimaryDark">#714E3D</item>
+        <item name="colorAccent">#522E75</item>
+        <!-- 設定StatusBar的文字顏色 -->
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- 設定ActionBar -->
+        <item name="actionBarStyle">@style/UrbanSkylineActionBarStyle</item>
+        <item name="menu_main_icon_tint">#02080F</item>
+        <item name="view_root_background">#52591F</item>
+        <item name="default_text_color">#02080F</item>
+        <item name="alertDialogTheme">@style/UrbanSkylineAlertDialogStyle</item>
+    </style>
+
+    <!-- 設定ActionBar -->
+    <style name="UrbanSkylineActionBarStyle" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/UrbanSkylineActionBarTitleStyle</item>
+    </style>
+
+    <!-- 設定ActionBarTitle -->
+    <style name="UrbanSkylineActionBarTitleStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#522E75</item>
+    </style>
+
+    <style name="UrbanSkylineAlertDialogStyle" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColor">#A3765D</item>
+        <item name="android:background">#02080F</item>
+    </style>
+</resources>

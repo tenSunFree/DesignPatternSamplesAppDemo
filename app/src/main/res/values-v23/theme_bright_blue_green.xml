@@ -1,0 +1,31 @@
+<resources>
+    <!-- 鮮亮藍綠色主題 -->
+    <style name="BrightBlueGreenTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#0584F2</item>
+        <item name="colorPrimaryDark">#0444BF</item>
+        <item name="colorAccent">#0444BF</item>
+        <!-- 設定StatusBar的文字顏色 -->
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- 設定ActionBar -->
+        <item name="actionBarStyle">@style/BrightBlueGreenActionBarStyle</item>
+        <item name="menu_main_icon_tint">#EDF259</item>
+        <item name="view_root_background">#EDF259</item>
+        <item name="default_text_color">#0AAFF1</item>
+        <item name="alertDialogTheme">@style/BrightBlueGreenAlertDialogStyle</item>
+    </style>
+
+    <!-- 設定ActionBar -->
+    <style name="BrightBlueGreenActionBarStyle" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/BrightBlueGreenActionBarTitleStyle</item>
+    </style>
+
+    <!-- 設定ActionBarTitle -->
+    <style name="BrightBlueGreenActionBarTitleStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#A79674</item>
+    </style>
+
+    <style name="BrightBlueGreenAlertDialogStyle" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColor">#0444BF</item>
+        <item name="android:background">#A79674</item>
+    </style>
+</resources>

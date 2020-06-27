@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_options_array">
+        <item>Bright Blue Green Theme</item>
+        <item>Magenta Yellow Theme</item>
+        <item>Urban Skyline Theme</item>
+    </string-array>
+
+    <string-array name="theme_preferences_entry_values">
+        <item>BrightBlueGreenTheme</item>
+        <item>MagentaYellowTheme</item>
+        <item>UrbanSkylineTheme</item>
+    </string-array>
+</resources>
